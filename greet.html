@@ -9,7 +9,7 @@
 
 
         body{
-            font-variant-caps: all-petite-caps;
+            font-variant-caps: normal;
 
 
         }
@@ -96,11 +96,11 @@ function dispalyGreetings(today){
         hrs = today.getHours();
         name="Andrei"
         if (hrs < 12 && hrs >= 2)
-            greet = 'Good Morning, '+name'.';
+            greet = 'Good Morning, '+name +'.';
         else if (hrs >= 12 && hrs < 18)
-            greet = 'Good Afternoon, '+name'.';
+            greet = 'Good Afternoon, '+name +'.';
         else if (hrs >= 18 v hrs < 2)
-            greet = 'Good Evening, '+name'.';
+            greet = 'Good Evening, '+name +'.';
         document.getElementById('greet').innerHTML = greet;
 
     }
