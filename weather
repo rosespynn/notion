@@ -1,0 +1,4 @@
+<a class="weatherwidget-io" href="https://forecast7.com/en/41d392d17/barcelona/" data-label_1="Barcelona" data-label_2="Weather" data-icons="Climacons Animated" data-theme="original" data-basecolor="#38a5a0" data-accent="#3cafaa" data-textcolor="#b7ffeb" data-highcolor="#f6d33c" data-lowcolor="#b7ffeb" data-suncolor="#f6d33c" data-mooncolor="#b7ffeb" data-cloudcolor="#b7ffeb" data-cloudfill="#775bec" data-raincolor="#b7ffeb" data-snowcolor="#b7ffeb" >Barcelona Weather</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
